@@ -1,0 +1,14 @@
+digraph DAG {
+rankdir=TB;
+
+1 -> 2 [label="AGR"]; 
+1 -> 7 [label="TNS"]; 
+1 -> 9 [label="ASP"]; 
+2 -> 3 [label="NUM"]; 
+2 -> 5 [label="GEN"]; 
+3 [label="PL"];
+5 [label="M"];
+7 [label="PAST"];
+9 [label="PERF"];
+}
+
